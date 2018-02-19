@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titill</title>
+	<link rel="stylesheet" type="text/css" href="look.css">
+	<script src="banner.js"></script>
+	<script src="floater.js"></script>
+	<script src="formvalidation.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+	<div id="navbar">
+		<div id="navbar_container">
+			<img src="assets/Logo.svg" id="logo_id">
+			<div id="navbar_items"  >
+			    <a href="#" class="navbar_btn bold_text">Vörur</a>
+			    <div class="dropdown_container">
+			    	<button class="dropbtn bold_text">Þjónusta
+				    </button>
+				    <div class="dropdown_menu">
+				      <a href="#" class="dropdown_li">Skipulag</a>
+				      <a href="#" class="dropdown_li dropdown_li_middle">Lykilstjórnendur</a>
+				      <a href="#" class="dropdown_li dropdown_li_middle">Skipurit</a>
+				      <a href="#" class="dropdown_li">Hafa samband</a>
+				    </div>
+			    </div> 
+
+			    <a href="#" class="navbar_btn bold_text">Um okkur</a>
+			</div>
+		</div>
+
+		
+	</div>
+
+	<div id="main">
+		<div id="main_container">
+			<img src="assets/banner1.jpg" id="banner_id">
+			<h1>
+				Hafa samband
+			</h1>
+			<div id="formAndText">
+				<div id="form_id">
+					<form name="form_name" onsubmit="return validateForm();">
+						<input type="text" placeholder="Nafn" class="input_field" name="input_name"><br>
+						<input type="email" placeholder="E-mail" class="input_field" name="input_email"><br>
+						<input type="text" placeholder="Sími" class="input_field" name="input_phone"><br>
+						<input type="text" placeholder="Fyrirspurn" class="input_field" name="input_question"><br>
+						<input type="submit" value="Senda" id="send_button">
+					</form>
+				</div>
+				<div id="text_id">
+					<i>
+					<p>
+						Donec in euismod erat, id finibus nulla. Sed vel lacus in eros lacinia dapibus tempus ut velit. Nulla facilisi. Fusce malesuada dolor nec risus sagittis, a euismod nisi sodales. Donec sagittis est a finibus porta. Praesent aliquam, odio sed volutpat bibendum, ligula nibh accumsan metus, sit amet gravida lacus nisi ac tortor. Nam suscipit mi in efficitur efficitur. Fusce pretium mi ultrices placerat lacinia. Aliquam luctus mi vitae lacus malesuada fermentum. Pellentesque tincidunt est augue, in imperdiet nibh feugiat eget. Etiam feugiat sed ipsum et iaculis. Proin pretium commodo turpis non aliquam. Integer hendrerit urna in lectus pellentesque luctus. Phasellus vel rhoncus tellus.
+					</p><br>
+
+					<p>
+						Cras rhoncus porta tempus. Donec rutrum auctor arcu sit amet iaculis. Etiam laoreet eu metus sed commodo. Donec sed turpis ac mauris auctor sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent aliquet ultricies nisi in elementum. Donec dictum rhoncus scelerisque. Aenean commodo lacinia arcu, sed feugiat diam semper ut. Ut non luctus lacus, quis condimentum nunc. Sed efficitur augue et risus accumsan, et aliquet nisi accumsan.
+					</p>
+					</i>
+				</div>
+			</div>
+			<img src="assets/TTT.png" id="floater" class="floater" onclick="window.scrollTo(0, 0);"  title="To the top!">
+		</div>
+	</div>
+
+	<div id="bottom">
+		<div id="bottom_container">
+			<div id="big_logo_container">
+				<img src="assets/Logo-big.svg">
+			</div>
+			<div id="footer_table">
+				<table style="width:100%">
+				  <tr>
+				    <td>Paper</td>
+				    <td>News</td> 
+				    <td>Videos</td>
+				  </tr>
+				  <tr>
+				    <td>Pencil</td>
+				    <td>Making</td> 
+				    <td>Images</td>
+				  </tr>
+				  <tr>
+				    <td>Book</td>
+				    <td>Sales</td> 
+				    <td>Media</td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+		<div id="footer_title">Made by Advania</div>
+		
+	</div>
+</body>
+</html>
